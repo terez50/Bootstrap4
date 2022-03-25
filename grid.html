@@ -10,7 +10,7 @@
 
     <title>Grid</title>
     <style>
-        .col {
+        [class^=col] {
             border: 1px solid red;
         }
     </style>
@@ -18,17 +18,17 @@
 
     <body>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                Content
-            </div>
-            <div class="col">
-                Content
-            </div>
-            <div class="col">
-                Content
-            </div>
+    <div class="row">
+        <div class="col-md-3">
+            Content
         </div>
+        <div class="col-md-6">
+            Content
+        </div>
+        <div class="col-md-3">
+            Content
+        </div>
+    </div>
     </div>
     </body>
 
