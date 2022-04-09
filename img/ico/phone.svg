@@ -6,6 +6,8 @@
       }
     </style>
   </defs>
+    <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.min.css">
+
   <title>phone</title>
   <g id="_152222920" data-name=" 152222920">
     <path id="_152222248" data-name=" 152222248" class="cls-1" d="M24.22,22.55c-5.48,3.16,2.88,18.83,8.87,15.37l5.56,9.62C36.12,49,34,49.92,31,48.25c-8.14-4.65-17.1-20.16-16.84-29.42.09-3.21,2-4.47,4.46-5.9l5.56,9.62Z" transform="translate(-14.2 -9.31)"/>
