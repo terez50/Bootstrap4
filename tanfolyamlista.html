@@ -8,12 +8,12 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.min.css">
 
   <title>Tanfolyamlista</title>
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="/index.html">Learning360</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu"
@@ -26,12 +26,13 @@
           <a class="nav-link" href="/index.html">Főoldal</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle active" href="#" id="tanfolyamokDropdown" role="button" data-toggle="dropdown"
-            aria-expanded="false">
+          <a class="nav-link dropdown-toggle active" href="#" id="tanfolyamokDropdown" role="button"
+            data-toggle="dropdown" aria-expanded="false">
             Tanfolyamok
           </a>
           <div class="dropdown-menu" aria-labelledby="tanfolyamokDropdown">
-            <a class="dropdown-item active" href="/tanfolyamlista.html">Tanfolyamlista<span class="sr-only">(jelenlegi)</span></a>
+            <a class="dropdown-item active" href="/tanfolyamlista.html">Tanfolyamlista<span
+                class="sr-only">(jelenlegi)</span></a>
             <a class="dropdown-item" href="/elofizetesek.html">Előfizetések</a>
             <a class="dropdown-item" href="/oktatok.html">Oktatók</a>
           </div>
@@ -49,7 +50,140 @@
     </div>
   </nav>
 
-  <footer class="py-4 text-white text-center text-md-left bg-dark">
+  <header>
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb bg-white">
+          <li class="breadcrumb-item"><a href="/index.html">Főoldal</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Tanfolyamlista</li>
+        </ol>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="py-5">
+      <div class="container">
+        <h1 class="mb-5">Tanfolyamlista</h1>
+        <div class="mb-5">
+          <h2>JavaScript</h2>
+          <table class="table table-striped table-responsive-md">
+            <thead>
+              <tr>
+                <th scope="col">Kód</th>
+                <th scope="col">Cím</th>
+                <th scope="col">Időtartam</th>
+                <th scope="col">Előképzettség</th>
+                <th scope="col">Oktató</th>
+                <th scope="col">Ár</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>#CODE</td>
+                <td>Aszinkron JavaScript</td>
+                <td>3 nap</td>
+                <td>HTML, CSS, JavaScript alapok</td>
+                <td>Gáll Gergely</td>
+                <td>200.000 HUF</td>
+              </tr>
+              <tr>
+                <td>#CODE</td>
+                <td>Aszinkron JavaScript</td>
+                <td>3 nap</td>
+                <td>HTML, CSS, JavaScript alapok</td>
+                <td>Gáll Gergely</td>
+                <td>200.000 HUF</td>
+              </tr>
+              <tr>
+                <td>#CODE</td>
+                <td>Aszinkron JavaScript</td>
+                <td>3 nap</td>
+                <td>HTML, CSS, JavaScript alapok</td>
+                <td>Gáll Gergely</td>
+                <td>200.000 HUF</td>
+              </tr>
+              <tr>
+                <td>#CODE</td>
+                <td>Aszinkron JavaScript</td>
+                <td>3 nap</td>
+                <td>HTML, CSS, JavaScript alapok</td>
+                <td>Gáll Gergely</td>
+                <td>200.000 HUF</td>
+              </tr>
+              <tr>
+                <td>#CODE</td>
+                <td>Aszinkron JavaScript</td>
+                <td>3 nap</td>
+                <td>HTML, CSS, JavaScript alapok</td>
+                <td>Gáll Gergely</td>
+                <td>200.000 HUF</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <h2>Java</h2>
+          <table class="table table-striped table-responsive-md">
+            <thead>
+              <tr>
+                <th scope="col">Kód</th>
+                <th scope="col">Cím</th>
+                <th scope="col">Időtartam</th>
+                <th scope="col">Előképzettség</th>
+                <th scope="col">Oktató</th>
+                <th scope="col">Ár</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>#CODE</td>
+                <td>Spring alapok</td>
+                <td>5 nap</td>
+                <td>Java haladó ismerek</td>
+                <td>Viczián István</td>
+                <td>350.000 HUF</td>
+              </tr>
+              <tr>
+                <td>#CODE</td>
+                <td>Spring alapok</td>
+                <td>5 nap</td>
+                <td>Java haladó ismerek</td>
+                <td>Viczián István</td>
+                <td>350.000 HUF</td>
+              </tr>
+              <tr>
+                <td>#CODE</td>
+                <td>Spring alapok</td>
+                <td>5 nap</td>
+                <td>Java haladó ismerek</td>
+                <td>Viczián István</td>
+                <td>350.000 HUF</td>
+              </tr>
+              <tr>
+                <td>#CODE</td>
+                <td>Spring alapok</td>
+                <td>5 nap</td>
+                <td>Java haladó ismerek</td>
+                <td>Viczián István</td>
+                <td>350.000 HUF</td>
+              </tr>
+              <tr>
+                <td>#CODE</td>
+                <td>Spring alapok</td>
+                <td>5 nap</td>
+                <td>Java haladó ismerek</td>
+                <td>Viczián István</td>
+                <td>350.000 HUF</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-4 text-white text-center text-md-left bg-dark mt-auto">
     <div class="container">
       <div class="row">
         <div class="col-md-4 mb-4 mb-md-0">
